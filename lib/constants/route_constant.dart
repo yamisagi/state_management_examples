@@ -1,3 +1,4 @@
+import 'package:state_management_examples/materials/inherited_model/view/home_page.dart';
 import 'package:state_management_examples/materials/stateful_app/provider/mock_provider.dart';
 import 'package:state_management_examples/materials/stateful_app/service/mock_api.dart';
 import 'package:state_management_examples/materials/stateful_app/view/home_view.dart';
@@ -29,6 +30,13 @@ class RouteManager {
       'route': '/inherited_widget',
       'page': MockProvider(mockApi: MockApi(), child: const StatefulHome()),
       'subtitle': 'This is the inherited widget page',
+    },
+
+    {
+      'title': 'Inherited Model',
+      'route': '/inherited_model',
+      'page': const InheritedModelHomePage(),
+      'subtitle': 'This is the inherited model page',
     }
   ];
 }

@@ -64,7 +64,7 @@ In this repository, I will add examples about all State Management solutions tha
   - [x] Project Setup
   - [x] ValueNotifier & ValueListenableBuilder Explanation with Simple Contact App
   - [x] InheritedWidget Explanation with Stateful App
-  - [ ] InheritedModel Explanation will be added
+  - [x] InheritedModel Explanation will be added
 
 
 
