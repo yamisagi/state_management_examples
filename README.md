@@ -66,7 +66,7 @@ In this repository, I will add examples about all State Management solutions tha
   - [x] InheritedWidget Explanation with Stateful App
   - [x] InheritedModel Explanation with InheritedModel App
   - [x] InheritedNotifier && ChangeNotifier Explanation with InheritedNotifier App
-  - [ ] Provider Explanation will be added
+  - [x] Basic Provider & ChangeNotifierProvider Explanation with Basic Provider App
 
 
 
