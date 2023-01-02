@@ -1,6 +1,7 @@
 import 'package:state_management_examples/materials/inherited_model/view/home_page.dart';
 import 'package:state_management_examples/materials/inheritednotifier_changenotifier/view/home_view.dart';
 import 'package:state_management_examples/materials/provider_examples/basic_example/view/provider_home.dart';
+import 'package:state_management_examples/materials/provider_examples/deep_example/view/time_view.dart';
 import 'package:state_management_examples/materials/stateful_app/provider/mock_provider.dart';
 import 'package:state_management_examples/materials/stateful_app/service/mock_api.dart';
 import 'package:state_management_examples/materials/stateful_app/view/home_view.dart';
@@ -51,6 +52,12 @@ class RouteManager {
       'route': '/basic_provider',
       'page': const ProviderHome(),
       'subtitle': 'This is the basic provider page',
+    },
+    {
+      'title': 'Deep Provider',
+      'route': '/deep_provider',
+      'page': const TimeHome(),
+      'subtitle': 'This is the deep provider page',
     }
   ];
 }

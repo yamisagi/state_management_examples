@@ -67,6 +67,7 @@ In this repository, I will add examples about all State Management solutions tha
   - [x] InheritedModel Explanation with InheritedModel App
   - [x] InheritedNotifier && ChangeNotifier Explanation with InheritedNotifier App
   - [x] Basic Provider & ChangeNotifierProvider Explanation with Basic Provider App
+  - [x] MultiProvider & Select & Watch Methods Usage Explanation with Deep Provider App
 
 
 
